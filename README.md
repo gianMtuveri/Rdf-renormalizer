@@ -56,6 +56,7 @@ This provides a good balance between accuracy and computational cost.
 
 ## Repository Structure
 
+```
 rdf-volume-renormalization/
 ├── data/
 │   ├── config/
@@ -70,23 +71,30 @@ rdf-volume-renormalization/
 │   └── run_cluster_residue.py
 └── src/
     └── rdfrenorm/
+```
 
 ## Installation
 
 Create a virtual environment and install:
 
+```
 pip install -r requirements.txt
 pip install -e .
+```
 
 ## Usage
 
 Run the renormalization for a given cluster and residue family:
 
+```
 python scripts/run_cluster_residue.py --cluster cl2 --residue ASP
+```
 
 For a lightweight test:
 
+```
 python scripts/run_cluster_residue.py --cluster cl2 --residue ASP --light
+```
 
 ## Input Requirements
 
