@@ -1,0 +1,66 @@
+# PDB format contains info on the atoms composing a molecule
+#legend
+#type          Can be ATOM or HETATM (hetero atom), they have different properties
+#Aidx          Atom index. Every atom has unique identificator number.
+#An            Atom name. In this case carbon alpha
+#Rn            Residue name. In this case, the residue is an amino acid in a protein (you may deal with lipids, polymers, etc.) Residues are small groups of atoms with constant behaviour.
+#Ridx          As Atoms, Residues have unique identificator number.
+
+#type  Aidx  An  Rn   Ridx      #  atom coordinates  #
+EGF 4
+ATOM    386  CA  ASP   832     171.962  83.759 110.571  1.00  0.00      PROA C
+ATOM    450  CA  ASP   836     167.651  71.873 107.366  1.00  0.00      PROA C
+ATOM    472  CA  ASP   838     168.930  66.680 107.438  1.00  0.00      PROA C
+CB 3
+ATOM    998  CA  ASP   874     172.078 118.372 108.850  1.00  0.00      PROA C
+ATOM   1017  CA  ASP   876     166.717 118.063 107.580  1.00  0.00      PROA C
+ATOM   1043  CA  ASP   878     167.013 113.540 103.955  1.00  0.00      PROA C
+ATOM   1084  CA  ASP   881     163.237 106.814 107.505  1.00  0.00      PROA C
+ATOM   1121  CA  ASP   884     170.043 110.396 109.279  1.00  0.00      PROA C
+CB 4
+ATOM   1600  CA  ASP   915     150.003 119.914 116.017  1.00  0.00      PROA C
+ATOM   1619  CA  ASP   917     149.761 114.613 116.038  1.00  0.00      PROA C
+ATOM   1645  CA  ASP   919     155.978 113.341 115.748  1.00  0.00      PROA C
+MISS
+ATOM   1714  CA  ASP   925     155.839 117.652 121.230  1.00  0.00      PROA C
+CB 5
+ATOM   2142  CA  ASP   956     136.453 121.588 103.598  1.00  0.00      PROA C
+ATOM   2173  CA  ASP   958     132.948 125.332 104.886  1.00  0.00      PROA C
+ATOM   2197  CA  ASP   960     132.809 125.559 110.366  1.00  0.00      PROA C
+ATOM   2226  CA  ASP   963     136.617 132.468 112.072  1.00  0.00      PROA C
+ATOM   2273  CA  ASP   966     139.885 126.196 108.934  1.00  0.00      PROA C
+CB 6
+ATOM   2732  CA  ASP   997     119.630 119.675  88.496  1.00  0.00      PROA C
+ATOM   2758  CA  ASP   999     118.965 120.742  93.669  1.00  0.00      PROA C
+ATOM   2784  CA  ASP  1001     124.512 121.366  95.464  1.00  0.00      PROA C
+ATOM   2813  CA  ASP  1004     126.314 129.783  96.188  1.00  0.00      PROA C
+ATOM   2850  CA  ASP  1007     124.687 125.645  89.795  1.00  0.00      PROA C
+CB 7
+ATOM   3237  CA  ASP  1035     110.757 110.367 103.144  1.00  0.00      PROA C
+ATOM   3256  CA  ASP  1037     112.356 115.376 104.658  1.00  0.00      PROA C
+ATOM   3282  CA  ASP  1039     113.171 118.255 100.172  1.00  0.00      PROA C
+ATOM   3311  CA  ASP  1042     107.288 123.296  99.493  1.00  0.00      PROA C
+ATOM   3355  CA  ASP  1045     106.957 115.781  98.190  1.00  0.00      PROA C
+CB 8
+ATOM   3922  CA  ASP  1083      97.554 124.981 119.827  1.00  0.00      PROA C
+ATOM   3941  CA  ASP  1085      93.833 121.050 118.840  1.00  0.00      PROA C
+ATOM   3967  CA  ASP  1087      96.983 116.735 115.601  1.00  0.00      PROA C
+ATOM   4006  CA  ASP  1090      99.235 110.211 120.721  1.00  0.00      PROA C
+ATOM   4040  CA  ASP  1093     101.614 117.716 120.351  1.00  0.00      PROA C
+CB 9
+ATOM   4518  CA  ASP  1126      77.284 121.673 118.491  1.00  0.00      PROA C
+ATOM   4537  CA  ASP  1128      79.437 118.278 122.006  1.00  0.00      PROA C
+ATOM   4563  CA  ASP  1130      84.766 120.343 123.285  1.00  0.00      PROA C
+ATOM   4600  CA  ASP  1133      84.467 124.339 130.816  1.00  0.00      PROA C
+ATOM   4637  CA  ASP  1136      81.200 126.418 124.002  1.00  0.00      PROA C
+CB 10
+ATOM   5071  CA  ASP  1167      64.521 111.510 103.517  1.00  0.00      PROA C
+ATOM   5104  CA  ASP  1170      71.710 112.928 107.248  1.00  0.00      PROA C
+ATOM   5116  CA  ASP  1171      70.230 116.185 108.554  1.00  0.00      PROA C
+ATOM   5145  CA  ASP  1174      74.445 112.809 115.337  1.00  0.00      PROA C
+ATOM   5175  CA  ASP  1177      67.070 111.690 112.347  1.00  0.00      PROA C
+EGF 5
+ATOM   5684  CA  ASP  1217      49.749  94.523 119.642  1.00  0.00      PROA C
+EGF 6
+ATOM   6006  CA  ASP  1238      26.202  88.347 108.592  1.00  0.00      PROA C
+ATOM   6302  CA  ASP  1257      19.561 101.707 101.398  1.00  0.00      PROA C

@@ -1,0 +1,42 @@
+# PDB format contains info on the atoms composing a molecule
+#legend
+#type          Can be ATOM or HETATM (hetero atom), they have different properties
+#Aidx          Atom index. Every atom has unique identificator number.
+#An            Atom name. In this case carbon alpha
+#Rn            Residue name. In this case, the residue is an amino acid in a protein (you may deal with lipids, polymers, etc.) Re>
+#Ridx          As Atoms, Residues have unique identificator number.
+
+#type  Aidx  An  Rn   Ridx      #  atom coordinates  #
+EGF 4
+ATOM    164  CA  SER   815     178.743  72.410 107.933  1.00  0.00      PROA C
+ATOM    175  CA  SER   816     179.253  74.797 110.801  1.00  0.00      PROA C
+ATOM    279  CA  SER   824     175.023  62.631 120.015  1.00  0.00      PROA C
+ATOM    588  CA  SER   847     164.806  85.886 106.586  1.00  0.00      PROA C
+ATOM    822  CA  SER   864     169.163 101.451 102.808  1.00  0.00      PROA C
+CB 3
+ATOM   1110  CA  SER   883     167.630 107.638 110.203  1.00  0.00      PROA C
+CB 4
+ATOM   1688  CA  SER   923     155.078 112.571 122.341  1.00  0.00      PROA C
+CB 5
+ATOM   2262  CA  SER   965     140.745 129.576 110.397  1.00  0.00      PROA C
+CB 6
+ATOM   2839  CA  SER  1006     125.595 129.101  91.018  1.00  0.00      PROA C
+CB 7
+ATOM   3344  CA  SER  1044     104.822 118.920  98.047  1.00  0.00      PROA C
+CB 8
+ATOM   4029  CA  SER  1092     102.094 114.420 122.098  1.00  0.00      PROA C
+CB 9
+ATOM   4626  CA  SER  1135      81.774 127.294 127.622  1.00  0.00      PROA C
+CB 10
+ATOM   5164  CA  SER  1176      69.614 110.443 114.846  1.00  0.00      PROA C
+EGF 5
+ATOM   5292  CA  SER  1186      62.609  97.475 104.303  1.00  0.00      PROA C
+ATOM   5374  CA  SER  1193      51.331  92.132 109.180  1.00  0.00      PROA C
+ATOM   5426  CA  SER  1197      55.155 102.745 107.157  1.00  0.00      PROA C
+ATOM   5551  CA  SER  1207      48.237  99.661 108.464  1.00  0.00      PROA C
+EGF 6
+ATOM   5804  CA  SER  1225      33.058  93.086 113.465  1.00  0.00      PROA C
+ATOM   5946  CA  SER  1234      17.361  95.209 110.286  1.00  0.00      PROA C
+ATOM   6091  CA  SER  1243      32.572  93.166 104.530  1.00  0.00      PROA C
+ATOM   6150  CA  SER  1247      19.904  90.146 104.638  1.00  0.00      PROA C
+ATOM   6336  CA  SER  1260      16.203  98.530 106.082  1.00  0.00      PROA C

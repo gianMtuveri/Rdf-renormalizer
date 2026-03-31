@@ -1,0 +1,47 @@
+# PDB format contains info on the atoms composing a molecule
+#legend
+#type          Can be ATOM or HETATM (hetero atom), they have different properties
+#Aidx          Atom index. Every atom has unique identificator number.
+#An            Atom name. In this case carbon alpha
+#Rn            Residue name. In this case, the residue is an amino acid in a protein (you may deal with lipids, polymers, etc.) Re>
+#Ridx          As Atoms, Residues have unique identificator number.
+
+#type  Aidx  An  Rn   Ridx      #  atom coordinates  #
+CB 3
+ATOM    966  CA  LYS   872     173.855 113.403 108.215  1.00  0.00      PROA C
+MISS
+MISS
+CB 4
+ATOM   1367  CA  LYS   901     164.524 119.039 120.027  1.00  0.00      PROA C
+MISS
+MISS
+CB 5
+MISS
+MISS
+MISS
+CB 6
+MISS
+MISS
+MISS
+CB 7
+ATOM   3026  CA  LYS  1021     108.872 118.068  90.280  1.00  0.00      PROA C
+MISS
+MISS
+CB 8
+ATOM   4067  CA  LYS  1095     100.673 117.107 126.074  1.00  0.00      PROA C
+MISS
+MISS
+CB 9
+ATOM   4258  CA  LYS  1109      88.127 129.633 116.390  1.00  0.00      PROA C
+ATOM   4317  CA  LYS  1113      86.677 131.675 127.767  1.00  0.00      PROA C
+ATOM   4436  CA  LYS  1121      84.105 127.807 115.967  1.00  0.00      PROA C
+CB 10
+ATOM   5020  CA  LYS  1164      63.071 115.386 106.589  1.00  0.00      PROA C
+MISS
+MISS
+EGF 6
+ATOM   5856  CA  LYS  1229      30.040  98.084 115.877  1.00  0.00      PROA C
+ATOM   5914  CA  LYS  1232      23.929  96.109 112.253  1.00  0.00      PROA C
+ATOM   5974  CA  LYS  1236      19.947  89.697 109.941  1.00  0.00      PROA C
+ATOM   6049  CA  LYS  1241      36.218  88.925 106.519  1.00  0.00      PROA C
+ATOM   6118  CA  LYS  1245      25.863  91.995 104.388  1.00  0.00      PROA C

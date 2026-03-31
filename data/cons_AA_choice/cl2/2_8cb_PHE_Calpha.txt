@@ -1,0 +1,27 @@
+# PDB format contains info on the atoms composing a molecule
+#legend
+#type          Can be ATOM or HETATM (hetero atom), they have different properties
+#Aidx          Atom index. Every atom has unique identificator number.
+#An            Atom name. In this case carbon alpha
+#Rn            Residue name. In this case, the residue is an amino acid in a protein (you may deal with lipids, polymers, etc.) Re>
+#Ridx          As Atoms, Residues have unique identificator number.
+
+#type  Aidx  An  Rn   Ridx      #  atom coordinates  #
+CB 3
+ATOM    758  CA  PHE   859     175.556 107.394 104.700  1.00  0.00      PROA C
+CB 4
+ATOM   1347  CA  PHE   900     162.542 121.830 118.473  1.00  0.00      PROA C
+CB 5
+ATOM   1928  CA  PHE   941     141.407 121.149 115.048  1.00  0.00      PROA C
+CB 6
+ATOM   2495  CA  PHE   982     132.050 122.099  86.877  1.00  0.00      PROA C
+CB 7
+ATOM   3006  CA  PHE  1020     109.863 114.519  90.982  1.00  0.00      PROA C
+CB 8
+ATOM   3650  CA  PHE  1067     107.883 118.170 115.114  1.00  0.00      PROA C
+CB 9
+ATOM   4280  CA  PHE  1110      86.770 130.130 119.888  1.00  0.00      PROA C
+CB 10
+MISS
+EGF 6
+ATOM   6071  CA  PHE  1242      36.146  91.993 104.300  1.00  0.00      PROA C

@@ -1,0 +1,37 @@
+# PDB format contains info on the atoms composing a molecule
+#legend
+#type          Can be ATOM or HETATM (hetero atom), they have different properties
+#Aidx          Atom index. Every atom has unique identificator number.
+#An            Atom name. In this case carbon alpha
+#Rn            Residue name. In this case, the residue is an amino acid in a protein (you may deal with lipids, polymers, etc.) Residues are small groups of atoms with constant behaviour.
+#Ridx          As Atoms, Residues have unique identificator number.
+
+#type  Aidx  An  Rn   Ridx      #  atom coordinates  #
+EGF 10
+ATOM     81  CA  GLU  2478      67.885  75.197 131.160  1.00  0.00      PROA C
+CB 11
+ATOM   1196  CA  GLU  2556      25.607 101.280 117.190  1.00  0.00      PROA C
+CB 12
+ATOM   1792  CA  GLU  2597      37.233 123.682 107.695  1.00  0.00      PROA C
+CB 13
+ATOM   2329  CA  GLU  2636      54.283 138.144 116.516  1.00  0.00      PROA C
+CB 14
+ATOM   3022  CA  GLU  2685      82.223 141.645 114.224  1.00  0.00      PROA C
+CB 15
+ATOM   3646  CA  GLU  2727     102.436 125.183 120.333  1.00  0.00      PROA C
+CB 16
+ATOM   4183  CA  GLU  2765     122.694 115.045 126.322  1.00  0.00      PROA C
+CB 17
+ATOM   4723  CA  GLU  2806     145.228 126.505 125.544  1.00  0.00      PROA C
+CB 18
+ATOM   5343  CA  GLU  2849     166.959 131.739 121.773  1.00  0.00      PROA C
+CB 19
+ATOM   5918  CA  GLU  2890     189.758 122.867 120.757  1.00  0.00      PROA C
+CB 20
+ATOM   6538  CA  GLU  2936     198.402 102.397 130.784  1.00  0.00      PROA C
+EGF 11
+ATOM   6644  CA  GLU  2943     202.811  95.886 122.100  1.00  0.00      PROA C
+ATOM   6842  CA  GLU  2957     211.188  96.692 119.985  1.00  0.00      PROA C
+EGF 12
+ATOM   7281  CA  GLU  2985     218.539 111.712  97.929  1.00  0.00      PROA C
+ATOM   7631  CA  GLU  3009     206.058 111.193  79.030  1.00  0.00      PROA C

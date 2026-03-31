@@ -1,0 +1,48 @@
+# PDB format contains info on the atoms composing a molecule
+#legend
+#type          Can be ATOM or HETATM (hetero atom), they have different properties
+#Aidx          Atom index. Every atom has unique identificator number.
+#An            Atom name. In this case carbon alpha
+#Rn            Residue name. In this case, the residue is an amino acid in a protein (you may deal with lipids, polymers, etc.) Re>
+#Ridx          As Atoms, Residues have unique identificator number.
+
+#type  Aidx  An  Rn   Ridx      #  atom coordinates  #
+ATOM    429  CA  PHE  3321      30.229 153.862 105.119  1.00  0.00      PROA C
+CB 21
+ATOM    676  CA  PHE  3339      18.933 151.375 111.101  1.00  0.00      PROA C
+ATOM    835  CA  PHE  3349      16.983 146.142 108.644  1.00  0.00      PROA C
+CB 22
+ATOM   1277  CA  PHE  3379      19.548 129.088 126.101  1.00  0.00      PROA C
+ATOM   1437  CA  PHE  3391      25.372 121.876 123.997  1.00  0.00      PROA C
+CB 23
+ATOM   1803  CA  PHE  3418      28.846 109.381 129.299  1.00  0.00      PROA C
+ATOM   2004  CA  PHE  3431      36.279 108.865 124.571  1.00  0.00      PROA C
+CB 24
+ATOM   2370  CA  PHE  3458      53.046  96.818 120.029  1.00  0.00      PROA C
+MISS
+CB 25
+ATOM   2966  CA  PHE  3499      76.987 100.656 106.080  1.00  0.00      PROA C
+MISS
+CB 26
+ATOM   3579  CA  PHE  3541     100.774  90.532 104.129  1.00  0.00      PROA C
+MISS
+CB 27
+ATOM   4145  CA  PHE  3580     120.482  78.827 126.940  1.00  0.00      PROA C
+MISS
+CB 28
+ATOM   4668  CA  PHE  3618     144.286  73.428 132.250  1.00  0.00      PROA C
+MISS
+CB 29
+ATOM   5243  CA  PHE  3659     168.333  79.720 120.231  1.00  0.00      PROA C
+MISS
+CB 30
+ATOM   5848  CA  PHE  3701     179.000  98.098 111.481  1.00  0.00      PROA C
+MISS
+CB 31
+ATOM   6525  CA  PHE  3747     198.881 127.454  94.280  1.00  0.00      PROA C
+MISS
+EGF 15
+ATOM   7455  CA  PHE  3813     197.305 153.008 123.901  1.00  0.00      PROA C
+EGF 16
+ATOM   7721  CA  PHE  3831     186.127 155.216 132.031  1.00  0.00      PROA C
+ATOM   8021  CA  PHE  3853     190.685 165.604 148.903  1.00  0.00      PROA C

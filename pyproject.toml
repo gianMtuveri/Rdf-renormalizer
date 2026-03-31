@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rdfrenorm"
+version = "0.1.0"
+description = "Excluded-volume renormalization of protein-water RDFs"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Gian Marco Tuveri" }
+]
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "MDAnalysis",
+  "tqdm"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
